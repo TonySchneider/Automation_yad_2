@@ -12,7 +12,7 @@ public class Automation_Yad2 {
 			driver.get("https://my.yad2.co.il/login.php");
 			driver.manage().window().maximize();
 			driver.findElement(By.xpath("//*[@id='userName']")).sendKeys("tonyschneider112@hotmail.com");
-			driver.findElement(By.xpath("//*[@id='password']")).sendKeys("altar112");
+			driver.findElement(By.xpath("//*[@id='password']")).sendKeys("1234");
 			driver.findElement(By.xpath("//*[@id='submitLogonForm']")).click();
 //			Thread.sleep(3000);
 			driver.findElement(By.xpath("/html/body/div[5]/div/div[3]/div[1]")).click();
